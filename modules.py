@@ -50,7 +50,7 @@ class ConvNorm(Layer):
     def __init__(self, type_, in_channels, out_channels, kernel_size,batch_norm=False,dropout=0, stride=1, padding=0, dilation=1,
                                 groups=1, bias=True, padding_mode='zeros', device=None, dtype=None,nonlinearity='relu',activation_use=True,norm=True):
         
-		super().__init__(nonlinearity=nonlinearity,activation_use=activation_use,norm=norm)
+	super().__init__(nonlinearity=nonlinearity,activation_use=activation_use,norm=norm)
         self.batch_norm_use = batch_norm
         self.dropout = nn.Dropout(p=dropout)
         
