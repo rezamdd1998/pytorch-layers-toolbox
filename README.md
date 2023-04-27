@@ -6,4 +6,4 @@ I've  written some codes to modify the layers and train the models better. (**Th
 
 properties:
 #### - weight initialization of the layers. (Xaviar and He initialization)
-#### - inegrate the batch normalization and dropout with convLayers
+#### - integrate the batch normalization and dropout with convLayers
